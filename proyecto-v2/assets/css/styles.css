@@ -1,0 +1,125 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat Bold', arial;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+footer {
+    font-family: 'Montserrat Black', arial;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #fadedee0;
+}
+
+header img{
+    height: 100px;
+}
+
+header #enlace{
+    width: 300px;
+}
+
+header #vinculacion{
+    width: 180px;
+}
+
+#menu li a{
+    color: #131a4a;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 8px 15px 8px;
+    margin: 0px;
+}
+
+/* #menu #Inscripcion{
+    color: #4e6d9f;
+} */
+
+
+
+#frontal{
+    background-image: url(../img/Fondo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    word-spacing: 2px;
+    margin: 5px auto 50px;
+    min-height: 460px;
+    padding-top: 8rem;
+    
+}
+#frontal h4{
+    font-style: italic;
+}
+
+#frontal h1{
+    font-size: 70px;
+}
+
+#frontal hr{
+    background-color: white;
+    width: 250px;
+}
+
+#contenido_menu{
+    margin-left: auto;
+}
+
+
+
+#proceso h5{
+    font-size: 18px;
+}
+
+
+
+#footer{
+    background-image: url(../img/Pie\ de\ página.png);
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 300px;
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
+#footer li{
+    background-color: transparent;
+    margin:0px auto 0px auto;
+    
+}
+
+#rrss img{
+    width: 80px;
+    height: 81px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#colab img{
+    width: 380px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto img{
+    width: 47px;
+    height: 33px;
+}
+
+#contacto{
+    padding: 25px;
+}
+#contacto span{
+    margin-left: 25px;
+}
