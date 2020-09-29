@@ -10,9 +10,12 @@
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
   <!-- Fuentes -->
-  <link href="https://allfont.es/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css"/>
+  <!-- <link href="https://allfont.es/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css"/> -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Icono pagina -->
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" sizes="16x16">
 </head>
 <body>
 
@@ -20,12 +23,12 @@
     <header>
       <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <!-- <a class="navbar-brand" href="#"> -->
             <img id="enlace" src="/assets/img/LogoEnlace.png" alt="Logo Enlace" loading="lazy">
-          </a>
-          <a class="navbar-brand mr-auto" href="#">
+          <!-- </a> -->
+          <!-- <a class="navbar-brand mr-auto" href="#"> -->
             <img id="vinculacion" src="/assets/img/FONDO-EST.png" alt="Logo Enlace" loading="lazy">
-          </a>
+          <!-- </a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -73,12 +76,12 @@
             <h3>¿Quiénes somos?</h3>
             <p>Somos estudiantes de la Universidad de Playa Ancha y la Universidad de Valparaíso, motivados en mejorar la educación Chilena, potenciando la colaboración entre profesoras y profesores en formación,  para la enseñanza de las ciencias en base a las tecnologías y los desafíos sociales del siglo XXI.   </p>
           </div>
-          <div class="imgaenes col-6 col-md-4">
-            <img src="/assets/img/icono13.png" class="align-self-center mr-5" alt="..." width="120px">
+          <div class=" col-6 col-md-4">
+            <img id="imagenes" src="/assets/img/icono13.png" class="align-self-center mr-5" alt="..." width="120px">
           </div>
 
-          <div id="dos" class="imagenes col-6 col-md-4">
-            <img src="/assets/img/icono12.png" class="align-self-center mr-5" alt="..." width="120px">
+          <div id="dos" class=" col-6 col-md-4">
+            <img id="imagenes" src="/assets/img/icono12.png" class="align-self-center mr-5" alt="..." width="120px">
           </div> 
           <div class="col-12 col-md-8">
             <h3 >Propocito del concurso</h3>
@@ -127,26 +130,57 @@
         </div>
 
       <!-- Boton Inscripcion -->
-        <div id="btn-inscripcion" class="container">
-          <div class="row">            
-            <button type="button" class=" btn-lg btn btn-success mr-auto ml-auto" data-toggle="modal" data-target="#staticBackdrop">
-              Ven e inscribete!
-            </button>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img id="imagenes" src="/assets/img/icono6.png" alt=""> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <button type="button" class="btn-lg btn btn-success mr-auto ml-auto" data-toggle="modal" data-target="#staticBackdrop">
+                  Ven e inscribete!
+                </button>
+              </h5>    
+              <h5 class="card-title">
+                <button type="button" class="btn-lg btn btn-info mr-auto ml-auto">
+                  <a href="/assets/files/Bases_del_concurso.pdf" target="_blank">Bases del Concurso</a>
+                </button>
+              </h5>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img id="imagenes" src="/assets/img/icono10.png" alt=""> 
+            </div>
+          </div>
+        </div>
+      </div>
+        
+          
+            
           <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Antes de continuar</h5>
+                    <h4 class="modal-title" id="staticBackdropLabel">Antes de continuar</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">                   
-                    <p>Al momento de inscipcion existira un mutuo acuerdo de responsabilidad, por ende recomendamos encarecidamente leer el instructivo a continuacion</p>
+                    <p>Al momento de inscipcion existira un mutuo acuerdo de responsabilidad, por ende recomendamos encarecidamente leer las bases del concurso y buena suerte en el concurso !!</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-info">Bases del Concurso</button>
                     <button type="button" class="btn btn-success">Continuar</button>
                   </div>
                 </div>
@@ -195,8 +229,6 @@
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-   
-    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>    
 </body>
 </html>

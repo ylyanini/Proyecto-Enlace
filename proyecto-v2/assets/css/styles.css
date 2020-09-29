@@ -2,8 +2,6 @@
     scroll-behavior: smooth;
     min-width: auto;
     font-family: 'Montserrat', arial;
-    margin: 0px;
-    padding: 0px;
 }
 
 header{
@@ -18,16 +16,30 @@ footer {
 }
 
 header img{
-    height: 130px;
+    height: 150px;
+    
 }
 
-header #enlace{
-    width: 140px;
+p{
+    text-align: justify;
+}
+button{
+    box-shadow: 3px 3px 3px #c4c4c4;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
 }
 
-header #vinculacion{
-    width: 180px;
+.card{
+    border: none;
 }
+
+
 
 #menu li a{
     color: #131a4a;
@@ -92,8 +104,11 @@ header #vinculacion{
     text-align: right;
 }
 
-#descripcion .imagenes{
-    margin:0px auto 0px auto;
+#imagenes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #proceso h1{
@@ -111,9 +126,15 @@ header #vinculacion{
     
 }
 
+#btn-inscripcion button a{
+    text-decoration: none;
+    color: white;
+}
+
 #footer{
     background-image: url(../img/Pie\ de\ página.png);
     background-repeat: no-repeat;
+    height: auto;
     color: white;
     min-height: 300px;
     padding-top: 4rem;
