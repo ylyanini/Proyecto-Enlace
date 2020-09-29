@@ -9,18 +9,19 @@
   <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
-  <link href="https://allfont.es/allfont.css?fonts=montserrat-black" rel="stylesheet" type="text/html" />
-  <link href="https://allfont.es/allfont.css?fonts=montserrat-bold" rel="stylesheet" type="text/html" />
-
+  <!-- Fuentes -->
+  <link href="https://allfont.es/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
- 
+
   <!-- Cabecera -->
     <header>
       <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img id="enlace" src="/assets/img/logo1.png" alt="Logo Enlace" loading="lazy">
+            <img id="enlace" src="/assets/img/LogoEnlace.png" alt="Logo Enlace" loading="lazy">
           </a>
           <a class="navbar-brand mr-auto" href="#">
             <img id="vinculacion" src="/assets/img/FONDO-EST.png" alt="Logo Enlace" loading="lazy">
@@ -28,7 +29,6 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -49,45 +49,45 @@
       </nav>
     </header>
 
-    <!-- Cuerpo -->
+  <!-- Cuerpo -->
     <main>
       <!-- Cabecera frontal -->
         <div id="frontal" class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1>Enlace Pedagogico</h1>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+              <h1>Enlace Pedagogico</h1>
               <hr class="my-4">
-              <h4>“Construcción de unidades didácticas en las asignaturas de Ciencias para la Ciudadanía y Matemática”</h4>
+            <h4>“Construcción de unidades didácticas en las asignaturas de Ciencias para la Ciudadanía y Matemática”</h4>
+            </div>
+          </div>
+            
           </div>
         </div>
-      </div>   
-      
-      <!-- Instroduccion -->
-      <div class="container">
+
+    <!-- Instroduccion -->
+      <div id="descripcion" class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="media ">       
-              <div class="media-body ">
-                <h3>¿Quiénes somos?</h3>
-                <p>Somos estudiantes de la Universidad de Playa Ancha y la Universidad de Valparaíso, motivados en mejorar la educación Chilena, potenciando la colaboración entre profesoras y profesores en formación,  para la enseñanza de las ciencias en base a las tecnologías y los desafíos sociales del siglo XXI.   </p>
-              </div>
-              <img src="/assets/img/icono13.png" class="align-self-center mr-3" alt="..." width="150px">
-            </div>
-          </div>          
-          
-          <div class="col-12">
-            <div class="media ">
-              <img src="/assets/img/icono12.png" class="align-self-center mr-3" alt="..." width="150px">
-              <div class="media-body">
-                <h3>Propocito del concurso</h3>
-                <p>El Concurso busca reforzar y aplicar trabajo interdisciplinar de la enseñanza de las ciencias para potenciar las Competencias del Siglo XXI e incluir Enfoque de Género en ambientes educativos y científicos,  Fomentando el desarrollo integral docente para conocer autoras y autores por sus ideas, conceptos, teorías y así poder lograr un conocimiento de los distintos enfoques en el aula. 
-                  El desarrollo de las unidades didácticas se llevará a cabo en el marco de las Bases Curriculares de 3° y 4° medio de las asignaturas de Ciencias para la ciudadanía y Matemática. Aplicando además nuevas metodologías como “Aprendizaje Basado en proyecto y Aprendizaje Basado en Problemas”.</p>
-              </div>
-            </div>
+
+          <div id="uno" class="col-12 col-md-8">
+            <h3>¿Quiénes somos?</h3>
+            <p>Somos estudiantes de la Universidad de Playa Ancha y la Universidad de Valparaíso, motivados en mejorar la educación Chilena, potenciando la colaboración entre profesoras y profesores en formación,  para la enseñanza de las ciencias en base a las tecnologías y los desafíos sociales del siglo XXI.   </p>
           </div>
-        </div>    
+          <div class="imgaenes col-6 col-md-4">
+            <img src="/assets/img/icono13.png" class="align-self-center mr-5" alt="..." width="120px">
+          </div>
+
+          <div id="dos" class="imagenes col-6 col-md-4">
+            <img src="/assets/img/icono12.png" class="align-self-center mr-5" alt="..." width="120px">
+          </div> 
+          <div class="col-12 col-md-8">
+            <h3 >Propocito del concurso</h3>
+            <p> El Concurso busca reforzar y aplicar trabajo interdisciplinar de la enseñanza de las ciencias para potenciar las Competencias del Siglo XXI e incluir Enfoque de Género en ambientes educativos y científicos, además fomentar el conocer autores, junto a las ideas y conceptos que crearon, y que fundamentan las teorías involucradas en las áreas para así lograr un conocimiento más integral, considerando el enfoque de género para su enseñanza en el aula.  </p>
+          </div>               
+        </div>
       </div>
 
-      <!-- Proceso -->
+    <!-- Proceso -->
       <div id="proceso" class="container">
         <div class="row">
           <h1 class="ml-auto mr-auto">Proceso</h1>
@@ -126,23 +126,40 @@
           </div>
         </div>
 
-
-        <div class="container">
-          <div class="row">
-            <button type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">
-              ¡ Inscribete ahora !
+      <!-- Boton Inscripcion -->
+        <div id="btn-inscripcion" class="container">
+          <div class="row">            
+            <button type="button" class=" btn-lg btn btn-success mr-auto ml-auto" data-toggle="modal" data-target="#staticBackdrop">
+              Ven e inscribete!
             </button>
+          <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Antes de continuar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">                   
+                    <p>Al momento de inscipcion existira un mutuo acuerdo de responsabilidad, por ende recomendamos encarecidamente leer el instructivo a continuacion</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Bases del Concurso</button>
+                    <button type="button" class="btn btn-success">Continuar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
     </main>
 
   <!-- Pie de pagina -->
     <footer id="footer">
-
       <div  class="container-fluid">
         <div class="row">
-
           <div id="colab" class="col-12 col-lg ">      
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><img src="/assets/img/DGVM-EST3.png" alt=""></li>
@@ -151,7 +168,6 @@
               <div class="col"><img src="assets/img/DGVM-EST3.png" alt=""></div>
             </div> -->
           </div>
-
           <div id="rrss" class="col-12 col-lg">
             <h4 class="text-center mb-3">Sigamos juntos:</h4>
           <!--  <div class="row">
@@ -161,11 +177,10 @@
             </div> -->
           <ul class="list-group list-group-horizontal-sm">
               <li class="list-group-item"><a href=""><img src="/assets/img/ICONOTWITTER.png" alt=""></a></li>
-              <li class="list-group-item"><a href="#" ><img src="/assets/img/ICONOFACEBOOK.png" alt=""></a></li>
+              <li class="list-group-item"><a href="https://www.facebook.com/Enlace-Pedagogico-629797567648964" ><img src="/assets/img/ICONOFACEBOOK.png" alt=""></a></li>
               <li class="list-group-item"><a href=""><img src="/assets/img/ICONOIG.png" alt=""></a></li>
             </ul>
-          </div>
-          
+          </div>         
           <div id="contacto" class="col-12 col-lg">
             <h4 class="text-center mb-3">¿Dudas?</h4>
             <ul class="list-group list-group-flush">

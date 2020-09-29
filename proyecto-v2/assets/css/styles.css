@@ -1,25 +1,28 @@
 *{
     scroll-behavior: smooth;
+    min-width: auto;
+    font-family: 'Montserrat', arial;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-    font-family: 'Montserrat Bold', arial;
-    font-size: 18px;
+header{
+    font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px 1px #aaa;
 }
 
 footer {
-    font-family: 'Montserrat Black', arial;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     text-shadow: 1px 1px 2px #fadedee0;
 }
 
 header img{
-    height: 100px;
+    height: 130px;
 }
 
 header #enlace{
-    width: 300px;
+    width: 140px;
 }
 
 header #vinculacion{
@@ -39,19 +42,18 @@ header #vinculacion{
     color: #4e6d9f;
 } */
 
-
-
 #frontal{
     background-image: url(../img/Fondo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100% ;
     color: white;
     text-align: center;
-    word-spacing: 2px;
+    word-spacing: 3px;
     margin: 5px auto 50px;
     min-height: 460px;
     padding-top: 8rem;
+    width: 100%;
     
 }
 #frontal h4{
@@ -59,7 +61,7 @@ header #vinculacion{
 }
 
 #frontal h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 #frontal hr{
@@ -71,13 +73,43 @@ header #vinculacion{
     margin-left: auto;
 }
 
+#descripcion{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
-
-#proceso h5{
-    font-size: 18px;
+#descripcion p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
+#descripcion #uno h3 {
+    text-align: left;
+}
+
+#descripcion #dos h3 {
+    text-align: right;
+}
+
+#descripcion .imagenes{
+    margin:0px auto 0px auto;
+}
+
+#proceso h1{
+    text-decoration: underline;
+}
+
+#proceso h5{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#btn-inscripcion{
+    padding-top: 4rem;
+    
+}
 
 #footer{
     background-image: url(../img/Pie\ de\ página.png);
@@ -102,7 +134,6 @@ header #vinculacion{
     margin-right: auto;
     
 }
-
 
 #colab img{
     width: 380px;
