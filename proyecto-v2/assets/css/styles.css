@@ -1,16 +1,33 @@
+@font-face{
+    font-family: MonserratFuente1;
+    src: url(/assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: MonserratFuente2;
+    src: url(/assets/fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face{
+    font-family: MonserratFuente3;
+    src: url(/assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
 *{
     scroll-behavior: smooth;
     min-width: auto;
-    font-family: 'Montserrat', arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header{
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 1px 1px 1px #aaa;
+body{
+    font-family: MonserratFuente1;
+    text-shadow: 1px 1px 1px #fadedee0;
 }
 
 footer {
-    font-family: 'Montserrat', sans-serif;
+    font-family: MonserratFuente2;
     font-size: 20px;
     text-shadow: 1px 1px 2px #fadedee0;
 }
@@ -23,8 +40,12 @@ header img{
 p{
     text-align: justify;
 }
+i{
+    text-align: justify;
+}
 button{
     box-shadow: 3px 3px 3px #c4c4c4;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -39,8 +60,6 @@ a:hover{
     border: none;
 }
 
-
-
 #menu li a{
     color: #131a4a;
     font-weight: bold;
@@ -49,10 +68,6 @@ a:hover{
     padding: 15px 8px 15px 8px;
     margin: 0px;
 }
-
-/* #menu #Inscripcion{
-    color: #4e6d9f;
-} */
 
 #frontal{
     background-image: url(../img/Fondo.png);
@@ -74,10 +89,13 @@ a:hover{
 
 #frontal h1{
     font-size: 50px;
+    font-family: MonserratFuente2;
 }
 
 #frontal hr{
     background-color: white;
+    margin-left: auto;
+    margin-right: auto;
     width: 250px;
 }
 
@@ -114,11 +132,18 @@ a:hover{
 #proceso h1{
     text-decoration: underline;
 }
+#proceso i{
+    text-align: justify;
+}
 
 #proceso h5{
     font-size: 18px;
     font-weight: bolder;
     text-align: center;
+}
+
+#preguntas button i:hover{
+    text-decoration: none;
 }
 
 #btn-inscripcion{
@@ -132,8 +157,9 @@ a:hover{
 }
 
 #footer{
-    background-image: url(../img/Pie\ de\ página.png);
-    background-repeat: no-repeat;
+    font-family: MonserratFuente3;
+    background-image: url(/assets/img/Pie\ de\ página.png);
+    background-repeat: repeat-x;
     height: auto;
     color: white;
     min-height: 300px;
@@ -165,13 +191,24 @@ a:hover{
 }
 
 #contacto img{
-    width: 47px;
-    height: 33px;
+    width: 37px;
+    height: 23px;
 }
 
 #contacto{
     padding: 25px;
+    
 }
 #contacto span{
     margin-left: 25px;
+}
+
+.imgEquipo{
+    width: 158px; 
+    height: 178px;
+}
+.central{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
