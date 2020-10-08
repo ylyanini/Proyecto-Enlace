@@ -129,9 +129,6 @@ a:hover{
     width: 50%;
 }
 
-#proceso h1{
-    text-decoration: underline;
-}
 #proceso i{
     text-align: justify;
 }
@@ -158,11 +155,12 @@ a:hover{
 
 #footer{
     font-family: MonserratFuente3;
-    background-image: url(/assets/img/Pie\ de\ página.png);
-    background-repeat: repeat-x;
+    background-image: url(/assets/img/Fondo.png);
+    background-color: transparent;
+    background-repeat: repeat-y;
     height: auto;
     color: white;
-    min-height: 300px;
+    min-height: 400px;
     padding-top: 4rem;
     margin-top: 4rem;
 }
@@ -173,7 +171,7 @@ a:hover{
     
 }
 
-#rrss img{
+.rrss img{
     width: 80px;
     height: 81px;
     display: block;
@@ -189,18 +187,17 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-
-#contacto img{
-    width: 37px;
-    height: 23px;
+.tarjetasfooter{
+    background-color: transparent; 
+    border: none;
+}
+.correo{
+    width: 46px;    
 }
 
-#contacto{
-    padding: 25px;
-    
-}
-#contacto span{
-    margin-left: 25px;
+span{
+    font-size: 18px;
+    text-align: center;
 }
 
 .imgEquipo{
@@ -211,4 +208,9 @@ a:hover{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#especial{
+    border: none;
+    box-shadow: none;
 }
