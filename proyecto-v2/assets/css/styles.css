@@ -40,17 +40,21 @@ header img{
 p{
     text-align: justify;
 }
+
 i{
     text-align: justify;
 }
+
 button{
     box-shadow: 3px 3px 3px #c4c4c4;
     color: white;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
 a:hover{
     text-decoration: none;
     color: white;
@@ -73,16 +77,17 @@ a:hover{
     background-image: url(../img/Fondo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto 100% ;
+    background-size: 100% ;
     color: white;
     text-align: center;
     word-spacing: 3px;
     margin: 5px auto 50px;
-    min-height: 460px;
+    min-height: 550px;
     padding-top: 8rem;
     width: 100%;
     
 }
+
 #frontal h4{
     font-style: italic;
 }
@@ -112,8 +117,7 @@ a:hover{
     text-align: justify;
     text-justify: inter-word;
 }
-
-
+    
 #descripcion #uno h3 {
     text-align: left;
 }
@@ -155,8 +159,8 @@ a:hover{
 
 #footer{
     font-family: MonserratFuente3;
-    background-image: url(/assets/img/Fondo.png);
-    background-color: transparent;
+    
+    background-color: #080a17;
     background-repeat: repeat-y;
     height: auto;
     color: white;
@@ -192,11 +196,11 @@ a:hover{
     border: none;
 }
 .correo{
-    width: 46px;    
+    width: 36px;    
 }
 
 span{
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 

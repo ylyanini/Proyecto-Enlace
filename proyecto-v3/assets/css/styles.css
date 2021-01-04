@@ -1,0 +1,164 @@
+@font-face{
+    font-family: Syncopate;
+    src: url(https://fonts.googleapis.com/css2?family=Syncopate);
+}
+
+:root{
+    font-family: Syncopate;
+    font-weight:lighter;
+    --text-primary: #ffffff;
+    --text-secondary: #000000;
+    --bg-primary: #080A17;
+    --bg-secondary: #021737;
+    --transition-speed: 600ms;
+}
+
+h1{
+    font-weight: bold;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #080A17;
+}
+
+body{
+    color: var(--text-secondary);
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-left: 6rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.navbar{
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: 250ms ease;
+    z-index: 5;
+}
+
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+nav-item{
+    width: 100%;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.nav-link span{
+    font-size: 0.8rem;
+}
+
+.link-text {
+    display: none;
+    margin-left: 0.5rem;
+}
+
+
+
+.nav-link img{
+    width: 4rem;
+    min-width: 4rem;
+    margin: 0 0.5rem;
+    
+}
+
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.logo{
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.logo img{
+    margin-top: 2rem;
+    width: 60%;
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+}
+
+.navbar:hover .logo img{
+    align-items: center;
+    transform: rotate(-360deg);
+}
+
+/* Dispositivos pequeños */
+@media only screen and (max-width: 600px){
+    .navbar{
+        bottom: 0;
+        width: 100vw;
+        height: 5.5rem;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .navbar-nav{
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .nav-link{
+        justify-content: center;
+    }
+
+    main{
+        margin: 0;
+    }
+}
+
+/* Dispositivos grandes */
+@media only screen and (min-width: 600px){
+    .navbar{
+        top: 0;
+        width: 5.5rem;
+        height: 100vh;
+    }
+    
+    .navbar:hover{
+        width: 18rem;
+    }
+
+    .navbar:hover .logo img{
+        margin-left: 3.5rem;
+    }
+
+    .navbar:hover .link-text{
+        display: inline;
+    }
+    
+}
